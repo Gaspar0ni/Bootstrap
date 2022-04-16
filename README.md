@@ -42,7 +42,7 @@ justify-content|||||||justify-content-start||||||||||j-c-center|||||||j-c-end|||
 
 align-items-start|||||a-i-end||||a-i-center
 
-<div class="media"><img src="#" class="mr-3 avatar"> <br> <div class="media-body> texto...</div>
+<div class="media"><img src="#" class="mr-3 avatar"> <br> <div class="media-body"> texto...</div>
 
 <ul class="list-unstyled"></ul>
 
@@ -56,7 +56,7 @@ div class="h1"
 
 class="text-right" ||||||t-center
 
-<ul class="list-inline> <li class="list-inline-item></li><li class="list-inline-item></li> </ul>
+<ul class="list-inline"> <li class="list-inline-item"></li><li class="list-inline-item"></li> </ul>
 
 <img src="" class="img-fluid">
 
@@ -125,8 +125,78 @@ Aviso de alerta para o usuário
 </div>
 ```
 
+```
+<a class="btn btn-primary" href="#">Botão</a>
+<buttom class="btn btn-primary">Botão</buttom>
+<input class="btn btn-primary" type="submit" value="Botão">
+//btn-outline-danger
+//btn-lg
+//btn-sm
+//btn-block
+//div class="btn-group>
+//div class="btn-group-vertical>
+```
+
+```
+<div id="SlideshowExemplo" class="slide carousel">
+        <div class="carousel-inner">
+                
+                <ol>
+                        <li data-target="#SlideshowExemplo" data-slide-to="0" class="active"></li>
+                        <li data-target="#SlideshowExemplo" data-slide-to="1"></li>
+                        <li data-target="#SlideshowExemplo" data-slide-to="2"></li>
+                        <li data-target="#SlideshowExemplo" data-slide-to="3"></li>
+                </ol>
+                
+                <div class="carousel-item active">
+                            <img src="#" class="w-100">
+                </div>
+                <div class="carousel-item active">
+                            <img src="#" class="w-100">
+                </div>
+                <div class="carousel-item active>
+                            <img src="#" class="w-100">
+                </div>
+                <div class="carousel-item active">
+                            <img src="#" class="w-100">
+                </div>
+                <a class="carousel-control-prev" href="#SlideshowExemplo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#SlideshowExemplo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                </a>
+        </div>                
+```
 
 
+```
+<buttom class"btn btn primary" data-toggle="collapse" data-target="area">Mostrar/Esconder></buttom>        
+<div class="collapse" id="area">texto qualquer</div>
+```
+                                      
+accordion
+                                      
+class="dropdown"
+                
+input group
+                
+list group
+                
+<span class="badge badge-primary badge-pill">12</span>
 
-
+```
+<div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action">
+                    <div class="d-flex justfy-content-between">
+                          <h5>Título da notícia</h5>
+                          <small>2 dias atrás</small>
+                     </div>
+                    <p>Algume texto sobre o título acima.</p>
+            </a>
+</div>
+```
+navbar
+        
+tooltip
 
